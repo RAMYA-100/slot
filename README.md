@@ -1,7 +1,6 @@
 # Ex03 Time Table
-## Date: 08/10/2025
-## NAME : RAMYA L
-## REGISTOR NO : 25018000
+## Date:08/10/2025
+
 ## AIM
 To write a html webpage page to display your slot timetable.
 
@@ -25,18 +24,47 @@ Add your timetable using ```<td>``` tag.
 Execute the program using runserver command.
 
 ## PROGRAM
+
+```
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Slot Time Table - Jeeva Nivas</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Table</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .header {
+            font-size: 1.5em;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+    </style>
 </head>
 <body>
-    <IMG SRC="c:\Users\jeeva\Pictures\Screenshots\Screenshot 2025-10-08 110813.png" ALT="Saveetha Engineering College" WIDTH="500" HEIGHT="100">
-    <h2>Saveetha Engineering College</h2>
-    <h3>SLOT TIME TABLE - Jeeva Nivas M</h3>
+<center>
+<img src="/static/logo.png" height="100" width="540"
+</center>
 
-    <table border="1">
-        <tr BGCOLOR="RED">
+    <div class="header">
+        <h3>SLOT TIME TABLE - KAYALVIZHI.V.M(25018055)</h3>
+    </div>
+
+    <table>
+        <tr>
             <th>Day/Time</th>
             <th>Monday</th>
             <th>Tuesday</th>
@@ -44,75 +72,74 @@ Execute the program using runserver command.
             <th>Thursday</th>
             <th>Friday</th>
         </tr>
-        <tr BGCOLOR="CYAN">
-            <td BGCOLOR="YELLOW">8-10</td>
-            <td>English</td>
-            <td>WEB</td>
+        <tr>
+            <td>8-10</td>
+            <td>Communicative english</td>
+            <td>Fwad</td>
             <td>Python</td>
-            <td>Enlish</td>
-            <td>web</td>
+            <td>Communicative english</td>
+            <td>Fwad</td>
         </tr>
-        <tr BGCOLOR="CYAN">
-            <td BGCOLOR="YELLOW">10-12</td>
-            <td></td>
-            <td></td>
-            <td>WEB</td>
+        <tr>
+            <td>10-12</td>
+            <td>FREE SLOT</td>
+            <td>FREE SLOT</td>
+            <td>FWAD</td>
             <td>Python</td>
             <td>Python</td>
+            
         </tr>
-        </tr>
-        <tr BGCOLOR="CYAN">
-            <td BGCOLOR="YELLOW">12-1</td>
-            <td COLSPAN=5 ALIGN="CENTER">LUNCH BREAK</td>
-        </tr>
-        <tr BGCOLOR="CYAN">
-            <td BGCOLOR="YELLOW">1-3</td>
-            <td>English</td>
-            <td>English</td>
-            <td></td>
-            <td>English</td>
+        <tr>
+            <td>1-3</td>
+            <td>Communicative english</td>
+            <td>Communicative english</td>
+            <td>mentor meet</td>
+            <td>Communicative english</td>
             <td>Python</td>
+            
         </tr>
-        <tr BGCOLOR="CYAN">
-            <td BGCOLOR="YELLOW">3-5</td>
-            <td>WEB</td>
-            <td>WEB</td>
+        <tr>
+            <td>3-5</td>
+            <td>Fwad</td>
+            <td>Fwad</td>
             <td>Python</td>
-            <td></td>
-            <td>English</td>
+            <td>FREE SLOT</td>
+            <td>Communicative english</td>
+            
         </tr>
     </table>
 
-    <h3>Subjects</h3>
-    <table border="1">
+    <h3>Subjects:</h3>
+    <table>
         <tr>
             <th>S. No.</th>
             <th>Subject Code</th>
             <th>Subject Name</th>
         </tr>
         <tr>
-            <td>1.</td>
+            <td>1</td>
             <td>19AI414</td>
             <td>Fundamentals of Web Application Development (FWAD)</td>
         </tr>
         <tr>
-            <td>2.</td>
-            <td>19EN612</td>
-            <td>Communicative English</td>
+            <td>2</td>
+            <td>SH1101</td>
+            <td>Communicative English(Communicative english)</td>
         </tr>
         <tr>
-            <td>3.</td>
+            <td>3</td>
             <td>19AI301</td>
-            <td>Fundamentals of Python programming language</td>
-        </tr>
+            <td>Python programming(Python) </td>
+        </tr
     </table>
+
 </body>
 </html>
 
+```
 ## OUTPUT
 
-<img width="1537" height="952" alt="Screenshot 2025-10-08 111558" src="https://github.com/user-attachments/assets/cd8840f5-2b3b-4e2e-8cd5-290cad1ed1bf" />
-
+<img width="1281" height="688" alt="Screenshot 2025-10-08 193050" src="https://github.com/user-attachments/assets/36fb1795-6809-4ac2-8709-3276d1875051" />
 
 ## RESULT
 The program for creating slot timetable using basic HTML tags is executed successfully.
