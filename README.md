@@ -1,7 +1,7 @@
 # Ex03 Time Table
 ## Date: 08/10/2025
-## NAME : JEEVA NIVAS M
-## REGISTOR NO : 25015894
+## NAME : RAMYA L
+## REGISTOR NO : 25018000
 ## AIM
 To write a html webpage page to display your slot timetable.
 
